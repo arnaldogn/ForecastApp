@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23551FA42076C74E00E3A959 /* FetchForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23551FA32076C74E00E3A959 /* FetchForecastService.swift */; };
+		23551FAA2076C7A700E3A959 /* CityForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23551FA82076C7A700E3A959 /* CityForecast.swift */; };
+		23551FAB2076C7A700E3A959 /* CityForecastDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23551FA92076C7A700E3A959 /* CityForecastDataModel.swift */; };
+		23551FAE2076C7D400E3A959 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23551FAD2076C7D400E3A959 /* UIView+Constraints.swift */; };
+		23551FB62076F1DB00E3A959 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23551FB22076F1DA00E3A959 /* Persistable.swift */; };
+		237C2C20207800B500257672 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C2C1F207800B500257672 /* ResultsView.swift */; };
+		237C2C2220780DB600257672 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C2C2120780DB600257672 /* UIViewController+Utils.swift */; };
+		237C2C2420782B6B00257672 /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C2C2320782B6B00257672 /* LocationServices.swift */; };
+		238D76A13FC68E1C70551FD3 /* Pods_ForecastApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C793514DD2E9CEBB5BBEEA /* Pods_ForecastApp.framework */; };
 		239DC98B2076BDEB00B26287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DC98A2076BDEB00B26287 /* AppDelegate.swift */; };
-		239DC98D2076BDEB00B26287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DC98C2076BDEB00B26287 /* ViewController.swift */; };
 		239DC9902076BDEB00B26287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239DC98E2076BDEB00B26287 /* Main.storyboard */; };
 		239DC9922076BDEB00B26287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239DC9912076BDEB00B26287 /* Assets.xcassets */; };
 		239DC9952076BDEB00B26287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239DC9932076BDEB00B26287 /* LaunchScreen.storyboard */; };
+		239DC9A32076BE6300B26287 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DC99C2076BE6200B26287 /* ItemCell.swift */; };
+		239DC9A72076BE6300B26287 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DC9A02076BE6200B26287 /* MainViewController.swift */; };
+		239DC9A82076BE6300B26287 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DC9A12076BE6200B26287 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		107836CBA4AAD558477ECF79 /* Pods-ForecastApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastApp/Pods-ForecastApp.release.xcconfig"; sourceTree = "<group>"; };
+		23551FA32076C74E00E3A959 /* FetchForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchForecastService.swift; sourceTree = "<group>"; };
+		23551FA82076C7A700E3A959 /* CityForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityForecast.swift; sourceTree = "<group>"; };
+		23551FA92076C7A700E3A959 /* CityForecastDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityForecastDataModel.swift; sourceTree = "<group>"; };
+		23551FAD2076C7D400E3A959 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		23551FB22076F1DA00E3A959 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		237C2C1F207800B500257672 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		237C2C2120780DB600257672 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		237C2C2320782B6B00257672 /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
 		239DC9872076BDEA00B26287 /* ForecastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239DC98A2076BDEB00B26287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		239DC98C2076BDEB00B26287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		239DC98F2076BDEB00B26287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		239DC9912076BDEB00B26287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239DC9942076BDEB00B26287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239DC9962076BDEB00B26287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239DC99C2076BE6200B26287 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		239DC9A02076BE6200B26287 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		239DC9A12076BE6200B26287 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34C793514DD2E9CEBB5BBEEA /* Pods_ForecastApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B920902F4525AF5F3EAE10B7 /* Pods-ForecastApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastApp/Pods-ForecastApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238D76A13FC68E1C70551FD3 /* Pods_ForecastApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23551FA22076C71E00E3A959 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				23551FA32076C74E00E3A959 /* FetchForecastService.swift */,
+				237C2C2320782B6B00257672 /* LocationServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		23551FA72076C78700E3A959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23551FA82076C7A700E3A959 /* CityForecast.swift */,
+				23551FA92076C7A700E3A959 /* CityForecastDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23551FAC2076C7B800E3A959 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				23551FAD2076C7D400E3A959 /* UIView+Constraints.swift */,
+				237C2C2120780DB600257672 /* UIViewController+Utils.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		23551FB02076F19600E3A959 /* DataPersistance */ = {
+			isa = PBXGroup;
+			children = (
+				23551FB22076F1DA00E3A959 /* Persistable.swift */,
+			);
+			path = DataPersistance;
+			sourceTree = "<group>";
+		};
+		237C2C1E207800A200257672 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				237C2C1F207800B500257672 /* ResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		239DC97E2076BDEA00B26287 = {
 			isa = PBXGroup;
 			children = (
 				239DC9892076BDEA00B26287 /* ForecastApp */,
 				239DC9882076BDEA00B26287 /* Products */,
+				8D6FDBF8E97917B3F96E2E40 /* Pods */,
+				843E48B21073D5F793EE690D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,38 @@
 		239DC9892076BDEA00B26287 /* ForecastApp */ = {
 			isa = PBXGroup;
 			children = (
+				237C2C1E207800A200257672 /* Views */,
+				23551FB02076F19600E3A959 /* DataPersistance */,
+				23551FAC2076C7B800E3A959 /* Categories */,
+				23551FA72076C78700E3A959 /* Model */,
+				23551FA22076C71E00E3A959 /* Services */,
+				239DC9A12076BE6200B26287 /* Constants.swift */,
+				239DC99C2076BE6200B26287 /* ItemCell.swift */,
+				239DC9A02076BE6200B26287 /* MainViewController.swift */,
 				239DC98A2076BDEB00B26287 /* AppDelegate.swift */,
-				239DC98C2076BDEB00B26287 /* ViewController.swift */,
 				239DC98E2076BDEB00B26287 /* Main.storyboard */,
 				239DC9912076BDEB00B26287 /* Assets.xcassets */,
 				239DC9932076BDEB00B26287 /* LaunchScreen.storyboard */,
 				239DC9962076BDEB00B26287 /* Info.plist */,
 			);
 			path = ForecastApp;
+			sourceTree = "<group>";
+		};
+		843E48B21073D5F793EE690D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34C793514DD2E9CEBB5BBEEA /* Pods_ForecastApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6FDBF8E97917B3F96E2E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B920902F4525AF5F3EAE10B7 /* Pods-ForecastApp.debug.xcconfig */,
+				107836CBA4AAD558477ECF79 /* Pods-ForecastApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239DC9992076BDEB00B26287 /* Build configuration list for PBXNativeTarget "ForecastApp" */;
 			buildPhases = (
+				A0B7B106B720D6821D41DC32 /* [CP] Check Pods Manifest.lock */,
 				239DC9832076BDEA00B26287 /* Sources */,
 				239DC9842076BDEA00B26287 /* Frameworks */,
 				239DC9852076BDEA00B26287 /* Resources */,
+				F6F6B949497C99884D763AC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +226,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0B7B106B720D6821D41DC32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForecastApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F6B949497C99884D763AC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ForecastApp/Pods-ForecastApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACProgressHUD-Swift/ACProgressHUD_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyRealm/EasyRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACProgressHUD_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastApp/Pods-ForecastApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		239DC9832076BDEA00B26287 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239DC98D2076BDEB00B26287 /* ViewController.swift in Sources */,
 				239DC98B2076BDEB00B26287 /* AppDelegate.swift in Sources */,
+				239DC9A32076BE6300B26287 /* ItemCell.swift in Sources */,
+				23551FAA2076C7A700E3A959 /* CityForecast.swift in Sources */,
+				239DC9A72076BE6300B26287 /* MainViewController.swift in Sources */,
+				237C2C20207800B500257672 /* ResultsView.swift in Sources */,
+				23551FAB2076C7A700E3A959 /* CityForecastDataModel.swift in Sources */,
+				23551FAE2076C7D400E3A959 /* UIView+Constraints.swift in Sources */,
+				23551FB62076F1DB00E3A959 /* Persistable.swift in Sources */,
+				23551FA42076C74E00E3A959 /* FetchForecastService.swift in Sources */,
+				239DC9A82076BE6300B26287 /* Constants.swift in Sources */,
+				237C2C2420782B6B00257672 /* LocationServices.swift in Sources */,
+				237C2C2220780DB600257672 /* UIViewController+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +439,11 @@
 		};
 		239DC99A2076BDEB00B26287 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B920902F4525AF5F3EAE10B7 /* Pods-ForecastApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = ForecastApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +458,11 @@
 		};
 		239DC99B2076BDEB00B26287 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107836CBA4AAD558477ECF79 /* Pods-ForecastApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = ForecastApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

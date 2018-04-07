@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let container: Container = {
+        let container = Container()
+        container.register(FetchForecastServiceProtocol.self) { _ in FetchForecastService() }
+        container.register(MainViewController.self) {
+            return MainViewController(fetchService: $0.resolve(FetchForecastServiceProtocol.self)!)
+        }
+        return container
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navigationController = UINavigationController(rootViewController: container.resolve(MainViewController.self)!)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
         return true
     }
 
